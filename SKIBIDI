@@ -684,8 +684,6 @@ function library:Introduction()
     local bar = Instance.new("Frame")
     local barCorner = Instance.new("UICorner")
     local barLayout = Instance.new("UIListLayout")
-    local DoomsClientLogo = Instance.new("ImageLabel")
-    local hashLogo = Instance.new("ImageLabel")
     local DoomsClient = Instance.new("TextLabel")
     local text = Instance.new("TextLabel")
     local pageLayout = Instance.new("UIListLayout")
@@ -741,29 +739,7 @@ function library:Introduction()
     barLayout.Parent = barFolder
     barLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
     barLayout.SortOrder = Enum.SortOrder.LayoutOrder
-    
-    DoomsClientLogo.Name = "DoomsClientLogo"
-    DoomsClientLogo.Parent = background
-    DoomsClientLogo.AnchorPoint = Vector2.new(0.5, 0.5)
-    DoomsClientLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    DoomsClientLogo.BackgroundTransparency = 1.000
-    DoomsClientLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    DoomsClientLogo.Size = UDim2.new(0, 448, 0, 150)
-    DoomsClientLogo.Visible = true
-    DoomsClientLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
-    DoomsClientLogo.ImageTransparency = 1
-    
-    hashLogo.Name = "hashLogo"
-    hashLogo.Parent = background
-    hashLogo.AnchorPoint = Vector2.new(0.5, 0.5)
-    hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    hashLogo.BackgroundTransparency = 1.000
-    hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    hashLogo.Size = UDim2.new(0, 0, 0, 0)
-    hashLogo.Visible = true
-    hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
-    hashLogo.ImageTransparency = 1
-    
+
     DoomsClient.Name = "DoomsClient"
     DoomsClient.Parent = background
     DoomsClient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
