@@ -768,7 +768,7 @@ function library:Introduction()
     DoomsClient.Parent = background
     DoomsClient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     DoomsClient.BackgroundTransparency = 1.000
-    DoomsClient.Size = UDim2.new(0, 80, 0, 21)
+    DoomsClient.Size = UDim2.new(0, 5, 0, 5)
     DoomsClient.Font = Enum.Font.Code
     DoomsClient.Text = "powered by DoomsClient"
     DoomsClient.TextColor3 = Color3.fromRGB(124, 124, 124)
