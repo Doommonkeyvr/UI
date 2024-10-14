@@ -1,3 +1,11 @@
+--[[
+  UI lib made by bungie#0001
+  
+  - Please do not use this without permission, I am working really hard on this UI to make it perfect and do not have a big 
+    problem with other people using it, please just make sure you message me and ask me before using.
+]]
+
+-- / Locals
 local Workspace = game:GetService("Workspace")
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
@@ -772,9 +780,23 @@ function library:Introduction()
     DoomsClient.BackgroundTransparency = 1.000
     DoomsClient.Size = UDim2.new(0, 80, 0, 21)
     DoomsClient.Font = Enum.Font.Code
+    DoomsClient.Text = "powered by DoomsClient"
     DoomsClient.TextColor3 = Color3.fromRGB(124, 124, 124)
     DoomsClient.TextSize = 10.000
     DoomsClient.TextTransparency = 1
+    
+    text.Name = "text"
+    text.Parent = background
+    text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    text.BackgroundTransparency = 1.000
+    text.Position = UDim2.new(0.912751675, 0, 0, 0)
+    text.Size = UDim2.new(0, 26, 0, 21)
+    text.Font = Enum.Font.Code
+    text.Text = "hash"
+    text.TextColor3 = Color3.fromRGB(124, 124, 124)
+    text.TextSize = 10.000
+    text.TextTransparency = 1
+    text.RichText = true
     
     pageLayout.Name = "pageLayout"
     pageLayout.Parent = introduction
